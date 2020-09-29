@@ -1,16 +1,17 @@
 <template>
   <div>
-    <p>Todo Item</p>
+    <p class="todo-item">Todo Item</p>
   </div>
 </template>
 
 <script>
 export default {
   name: "TodoItem",
+  props: ["todo"],
 };
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 .todo-item {
   background: #fff;
   padding: 15px;

@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import TodoItem from "./TodoItem.vue";
+import TodoItem from "./TodoItem";
 
 export default {
   name: "Todos",
@@ -16,5 +16,5 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
+<style  scoped>
 </style>
